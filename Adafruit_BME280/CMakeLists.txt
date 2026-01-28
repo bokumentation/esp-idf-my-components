@@ -12,5 +12,5 @@ idf_component_register(
     INCLUDE_DIRS "."
 
     # Required Dependencies: We use esp_log, which is part of the 'log' component.
-    PRIV_REQUIRES arduino-esp32
+    PRIV_REQUIRES arduino-esp32 Adafruit_Sensor
 )
