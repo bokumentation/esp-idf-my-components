@@ -11,7 +11,7 @@ Thumbs.db
 # Folder
 .cache/
 .vscode/
-.zed
+.zed/
 
 # Folder
 backup/
