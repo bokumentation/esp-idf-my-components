@@ -1,11 +1,17 @@
-# Adafruit Bus IO Library
-# https://github.com/adafruit/Adafruit_BusIO
-# MIT License
+# components/my_components/CMakeLists.txt
+# Define the component and its properties
 
-cmake_minimum_required(VERSION 3.5)
+# Search all ".c" and ".cpp" file
+file(GLOB_RECURSE SOURCES "*.c" "*.cpp")
 
-idf_component_register(SRCS "Adafruit_SSD1306.cpp"
-                       INCLUDE_DIRS "."
-                       REQUIRES arduino Adafruit-GFX-Library)
+idf_component_register(
+    # Source files to compile
+    SRCS ${SOURCES}
 
-project(Adafruit_SSD1306)
+    # Directory for public header files
+    INCLUDE_DIRS "."
+
+    # Required Dependencies: We use esp_log, which is part of the 'log' component.
+    PRIV_REQUIRES arduino-esp32 Adafruit-GFX-Library
+
+)

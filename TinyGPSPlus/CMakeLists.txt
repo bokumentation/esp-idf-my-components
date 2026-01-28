@@ -2,7 +2,7 @@
 # Define the component and its properties
 
 # Search all ".c" and ".cpp" file
-file(GLOB_RECURSE SOURCES "*.c" "*.cpp")
+file(GLOB_RECURSE SOURCES "src/*.c" "src/*.cpp")
 
 idf_component_register(
     # Source files to compile

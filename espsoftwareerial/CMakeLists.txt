@@ -2,7 +2,7 @@
 # Define the component and its properties
 
 # Search all ".c" and ".cpp" file
-file(GLOB_RECURSE SOURCES "*.c" "*.cpp")
+file(GLOB_RECURSE SOURCES "src/*.c" "src/*.cpp")
 
 idf_component_register(
     # Source files to compile
@@ -12,6 +12,6 @@ idf_component_register(
     INCLUDE_DIRS "."
 
     # Required Dependencies: We use esp_log, which is part of the 'log' component.
-    PRIV_REQUIRES arduino-esp32
+    PRIV_REQUIRES arduino-esp32 ghostl
 
 )
