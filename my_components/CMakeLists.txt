@@ -13,5 +13,4 @@ idf_component_register(
 
     # Required Dependencies: We use esp_log, which is part of the 'log' component.
     PRIV_REQUIRES log
-
 )

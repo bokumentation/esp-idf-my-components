@@ -9,9 +9,8 @@ idf_component_register(
     SRCS ${SOURCES}
 
     # Directory for public header files
-    INCLUDE_DIRS "."
+    INCLUDE_DIRS "." "src"
 
     # Required Dependencies: We use esp_log, which is part of the 'log' component.
     PRIV_REQUIRES arduino-esp32
-
 )
