@@ -4,4 +4,5 @@ idf_component_register(
     SRCS ${SOURCES}
     INCLUDE_DIRS "."
     PRIV_REQUIRES arduino-esp32
+    REQUIRES Adafruit_BusIO
 )
