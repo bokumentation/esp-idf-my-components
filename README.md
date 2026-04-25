@@ -29,3 +29,4 @@ A curated collection of Arduino-compatible libraries ported for the ESP-IDF envi
 
 - Repository Logic: The porting scripts and configuration files are licensed under the MIT License.
 - Components: Each library inside this folder remains the property of its original author. Original LICENSE files are preserved within each component subdirectory to ensure compliance and attribution.
+// Small test
