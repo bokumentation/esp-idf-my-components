@@ -23,6 +23,7 @@ A curated collection of Arduino-compatible libraries ported for the ESP-IDF envi
 | **RTClib** | [Adafruit](https://github.com/adafruit/RTClib) | MIT |
 | **TinyGPSPlus** | [Mikal Hart](https://github.com/mikalhart/TinyGPSPlus) | MIT |
 | **PicoMQTT** | [Marek Lesniewski](https://github.com/mlesniew/PicoMQTT) | MIT |
+| **ghostl** | [Dirk Kaar](https://github.com/dok-net/ghostl) | LGPL-2.1+ |
 
 ## Licensing
 
