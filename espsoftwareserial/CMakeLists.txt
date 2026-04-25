@@ -5,3 +5,5 @@ idf_component_register(
     INCLUDE_DIRS "." "src"
     PRIV_REQUIRES arduino-esp32 ghostl
 )
+
+target_compile_options(${COMPONENT_LIB} PRIVATE -mtext-section-literals)
